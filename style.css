@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(110, 110, 110);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+}
+
+.column-aside {
+  width: 40%;
+  padding: 30px 20px 30px 0;
+}
+
+.column-aside li {
+  line-height: 25px;
+}
+
+.column {
+  width: 60%;
+  padding: 30px 0 30px 20px;
+}
+
+h1,
+h2,
+.p-uppercase {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 34px;
+  text-decoration: underline rgba(223, 65, 65, 0.9);
+  letter-spacing: 5px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+.aside-h2 {
+  margin-top: 70px;
+  color: rgb(54, 54, 54);
+  background: linear-gradient(to right, rgba(223, 65, 65, 0.9), #fefcea);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid rgba(223, 65, 65, 0.9);
+  border-bottom: none;
+  border-top: none;
+}
+
+.link {
+  color: rgb(109, 104, 104);
+}
+
+.link:hover {
+  font-weight: 700;
+}
+
+.logoRss {
+  width: 70px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(223, 65, 65, 0.9);
+}
+
+.nav {
+  background: rgba(223, 65, 65, 0.9);
+  height: 60px;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 0 15px;
+  line-height: 60px;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: rgb(110, 110, 110);
+}
+
+.me {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.div-photo {
+  width: 40%;
+}
+
+.photo {
+  max-width: 200px;
+}
+
+.profile {
+  width: 60%;
+  text-align: center;
+}
+
+.snippet {
+  margin-left: -115px;
+}
+
+.git {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  vertical-align: middle;
+  transition: 1s;
+}
+
+.logo-link:hover {
+  display: flex;
+  vertical-align: middle;
+  transform: scaleX(1.2);
+}
+
+.git-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.git-link:hover {
+  color: white;
+  transform: scale(1.2);
+}
+
+.copy {
+  color: white;
+}
