@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+        <section class="me">
+            <div class="div-photo"><img class="photo" src="./assets/img/photo.jpg" alt="photo"></div>
+            <div class="profile">
+                <h1>Tatsiana Kalenik</h1>
+                <p class="p-uppercase">Frontend developer</p>
+            </div>
+        </section>
+    </div>
+    </header>
+    <main class="main container">
+        <aside class="column-aside">
+            <div class="contacts" id="contacts"> 
+                <h2 class="aside-h2">Contacts</h2>
+                <ul>
+                    <li>E-mail: tmolekyla@gmail.com</li>
+                    <li>Discord: Tanya-ka#4900</li>
+                    <li><a class="link" href="https://github.com/Tanya-ka">GitHub: Tanya-ka</a></li>
+                </ul>
+            </div>
+            <div class="skills" id="skills">
+                <h2 class="aside-h2">Skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JS</li>
+                    <li>Git/GitHub</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+            <div class="languages" id="languages">
+                <h2 class="aside-h2">Languages</h2>
+                <ul>
+                    <li>Russian - native</li>
+                    <li>English - A1 (A2 in process)</li>
+                </ul>
+            </div>
+        </aside>
+        <div class="column">
+        <section class="summary" id="summary">
+            <h2>Summary</h2>
+            <hr>
+            <p>
+                I like to learn something new.
+                I like to watch the code on the page come to life.
+                My current goal is to explore web development
+                on real projects and keep up with new technologies.
+            </p>
+        </section>
+        <section id="code">
+            <h2>Code example</h2>
+            <hr>
+            <pre class="snippet">
+                function isPalindrome(str) {
+                    const newStr = str.toLowerCase( ).split('').reverse().join('');
+                    if (newStr.toLowerCase() == str.toLowerCase()) {
+                      return 'true';
+                    } else {
+                      return 'false';
+                    }
+                 }
+            </pre>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <hr>
+            <ul>
+                <li><a class="link" href="https://portfolio-321.netlify.app/">Portfolio</a></li>
+                <li><a class="link" href="https://quirky-meninsky-7acec9.netlify.app/">Memory-game</a></li>
+                <li><a class="link" href="https://image-gallery-321.netlify.app/">Image-gallery</a></li>
+            </ul>
+        </section>
+        <section class="education" id="education">
+            <h2>Education and courses</h2>
+            <hr>
+            <ul>
+                <li>Offline course Front-end development at IT-Shatle.</li>
+                <li>RS Schools "JavaScript/Front-end. Stage 0".</li>
+            </ul>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <div class="container footer">
+            <div class="git"><a class="git-link" href="https://github.com/Tanya-ka">my GitHub</a></div>
+            <p class="copy">© 2022</p>
+            <a class="logo-link" href="https://rs.school/js/"><img class="logoRss" alt="logo" src="./assets/img/rs_school_js.svg"></a>
+        </div>
+    </footer>
+</body>
+</html>
