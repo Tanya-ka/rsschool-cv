@@ -33,3 +33,12 @@ function isPalindrome(str) {
    }
 }
 ```
+
+## Education
+
+- courses Front-end development at IT Shatle.
+- courses RS-school in process.
+
+## Languages
+
+English level - A1 (A2 in process).
